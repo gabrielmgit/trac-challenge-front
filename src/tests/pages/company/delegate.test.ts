@@ -135,6 +135,7 @@ describe('#delegate.updateAsset()', () => {
   test('Should update asset correctly', async () => {
     const updateAsset = updateAssetSpy();
     const editedAsset = assetMock();
+
     updateAsset.mockImplementation(() => Promise.resolve(editedAsset));
 
     const updatedAsset = await delegate.updateAsset(editedAsset);
