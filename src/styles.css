@@ -1,0 +1,22 @@
+@import '~antd/dist/antd.css';
+
+:root {
+    --white: #ffffff;
+    --black: #000000;
+}
+
+body, html, #root {
+    height: 100%;
+    background: rgb(30,58,138);
+    background: linear-gradient(90deg, rgba(30,58,138,1) 0%, rgba(37,99,235,1) 100%);
+    font-style: 500 1rem Inter, sans-serif;
+}
+
+body {
+    margin: 0,
+}
+
+.default-gradient {
+    background: rgb(30,58,138);
+    background: linear-gradient(90deg, rgba(30,58,138,1) 0%, rgba(37,99,235,1) 100%);
+}
